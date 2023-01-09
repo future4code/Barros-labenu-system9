@@ -1,23 +1,21 @@
-import { Pessoa } from "./pessoa";
-
-export class tuwrma{
+export class Turma {
     id: string; 
-    nomeTurma: string; 
-    docentes: string[]; 
-    estudantes: string[]; 
-    modulo: string;  
-constructor(
-    id:string, 
-    nomeTuma:string, 
-    email:string, 
-    dataNascimento: Date, 
-    turma: string, 
-){
-    this.id,
-    this.nomeTurma, 
-    this.docentes, 
-    this.estudantes, 
-    this.modulo
-}
-} 
+    nome: string; 
+    docentes: string [];
+    estudantes: string []; 
+    modulo: string;
 
+    constructor(
+        id: string, 
+        nome: string, 
+        docentes: string [], 
+        estudantes: string [],
+        modulo: string,
+    ){
+        this.id = id;
+        this. nome = nome;
+        this.docentes = docentes;
+        this.estudantes = estudantes;
+        this.modulo = modulo;
+    }
+}
